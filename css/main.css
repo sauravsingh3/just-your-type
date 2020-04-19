@@ -1,0 +1,73 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  background-color: 	#000000;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.firstfont1 {
+  font-family: 'Spartan', sans-serif;
+  font-size: 5em;
+  line-height: 2em;
+  color: #696969;
+  letter-spacing: 10px
+  top: 0;
+  left: 0;
+}
+
+.firstfont2 {
+  font-family: 'Spartan', sans-serif;
+  font-size: 5em;
+  line-height: 2em;
+  color: #696969;
+  letter-spacing: 10px
+  top: 0;
+  right: 0;
+}
+
+.secondfont1 {
+  font-family: 'Special Elite', cursive;
+  color: snow;
+  font-size: 10em;
+  line-height: 2em;
+  top: 125px;
+  left: 10px;
+  text-align: left;
+  width: 50%;
+  position: absolute;
+  display: block;
+}
+
+.secondfont2 {
+  font-family: 'Special Elite', cursive;
+  color: snow;
+  font-size: 10em;
+  line-height: 2em;
+  top: 10px;
+  right: 10px;
+  text-align: right;
+  width: 50%;
+  position: absolute;
+  display: block;
+}
+
+.container {
+  position: relative;
+}
